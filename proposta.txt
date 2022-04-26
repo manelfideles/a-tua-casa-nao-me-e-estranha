@@ -1,0 +1,59 @@
+Proposta de projeto:
+Plataforma de Accessibility Scoring de uma casa.
+
+Workflow:
+- O utilizador seleciona uma zona desejada de moradia (localizacao + raio de pesquisa predefinido)
+- A aplicação procura todas as casas à venda
+ou para arrendar nessa zona (https://developers.idealista.com/access-request)
+- A aplicação calcula a AS das mesmas, tendo em conta:
+    -> Public/Soft Transportation (commute time + line changes (for bus, metro, tram)):
+        Bus stops (https://moovit.com/maas-solutions/transit-apis/ ou SMTUC) *
+        Metro Stops
+        Tram Stops
+        ? [e-Scooters (https://api.birdapp.com)]
+        Bike Lanes (Ecovias + Ciclovias)
+    -> Recreational/Leisure:
+        Bars
+        Restaurants
+        Nature Parks
+        Sports (football pitches, bball courts, tennis, padel, etc)
+        Cinemas/Salas de espetáculos
+        Museums
+        Gyms
+    -> Utilities:
+        Parking Spots
+        Supermarkets
+        Banks and ATMs
+        Daycare, Regular Schools, Driving Schools, College
+        Auto Repair Shops
+        Hospitals / Health Clinics
+        Fire Dpts
+        Retirement Homes
+
+NOTA: Tirando os que estão assinalados com uma nota acerca da API,
+todos os fatores acima enunciados assumem a utilização da API
+do Google Maps.
+
+* Em alternativa podemos utilizar o OpenStreetMap. Porém após pesquisa
+mais aprofundada ficámos a saber que o Google Maps tem as paragens marcadas.
+
+Sugestão:
+-> Dar pesos a cada categoria, e definir perfis.
+
+Kickstart:
+-> Reunião Cliente:
+    - Estado de digitalização dos dados
+    - Definir requisitos (funcionais + não-funcionais)
+    - Mencionar disponibilidade para fazer o site
+-> Explorar plugins do qgis
+-> PostGres + QGIS
+-> QGIS + APIs
+
+
+Para começar:
+-> Extração de POIs da API do Google Maps ou do OpenStreetMap - (com o SDK Python para o OSM)
+(também podemos ir buscar diretamente ao OSM)
+-> Obter travel-times por modo de transporte (Google Maps ou Tomtom) - Google Maps Distance Matrix
+-> Questionário para obter os pesos de cada categoria para o utilizador (vetor preferências do user)
+-> Ir buscar à mão 10/15 casas da área de Porto
+-> Plataforma Web?
