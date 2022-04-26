@@ -1,0 +1,460 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-04-26T00:00:39Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2466995616",
+        "funicular": "yes",
+        "name": "Batalha",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "station": "funicular",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6082713,
+          41.1431584
+        ]
+      },
+      "id": "node/2466995616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3397147918",
+        "funicular": "yes",
+        "name": "Ribeira",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "station": "funicular",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.609497,
+          41.1409461
+        ]
+      },
+      "id": "node/3397147918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3939661657",
+        "light_rail": "yes",
+        "name": "Francos",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10275813"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6363513,
+          41.1654863
+        ]
+      },
+      "id": "node/3939661657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3941918457",
+        "light_rail": "yes",
+        "name": "Ramalde",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10276085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6418485,
+          41.1729743
+        ]
+      },
+      "id": "node/3941918457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3996603757",
+        "light_rail": "yes",
+        "name": "Trindade",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q162481",
+        "wikipedia": "pt:Estação Trindade (Metro do Porto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6093526,
+          41.1525171
+        ]
+      },
+      "id": "node/3996603757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320513",
+        "light_rail": "yes",
+        "name": "Casa da Música",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6286861,
+          41.1606277
+        ]
+      },
+      "id": "node/6627320513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320514",
+        "light_rail": "yes",
+        "name": "Carolina Michaelis",
+        "official_name": "Carolina Michaëlis",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "no",
+        "wikidata": "Q10275632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6218958,
+          41.1585585
+        ]
+      },
+      "id": "node/6627320514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320515",
+        "light_rail": "yes",
+        "name": "Lapa",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10275928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6168023,
+          41.1570869
+        ]
+      },
+      "id": "node/6627320515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320516",
+        "level": "-3",
+        "light_rail": "yes",
+        "name": "Bolhão",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q10275605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6058293,
+          41.1497738
+        ]
+      },
+      "id": "node/6627320516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320517",
+        "light_rail": "yes",
+        "name": "Campo 24 de Agosto",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10275622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5986934,
+          41.1487494
+        ]
+      },
+      "id": "node/6627320517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320518",
+        "light_rail": "yes",
+        "name": "Heroísmo",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q10275856"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5930447,
+          41.1465197
+        ]
+      },
+      "id": "node/6627320518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627320519",
+        "alt_name:de": "Stadion des Drachens",
+        "light_rail": "yes",
+        "name": "Estádio do Dragão",
+        "name:de": "Drachenstadion",
+        "name:en": "Dragon Stadium",
+        "name:es": "Estadio del Dragón",
+        "name:fr": "Stade du Dragon",
+        "name:it": "Stadio del Drago",
+        "name:pt": "Estádio do Dragão",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q10275748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.582045,
+          41.1605034
+        ]
+      },
+      "id": "node/6627320519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6630378103",
+        "light_rail": "yes",
+        "name": "Porto - Campanhã",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "train": "yes",
+        "wikidata": "Q801328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5849182,
+          41.1501222
+        ]
+      },
+      "id": "node/6630378103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372470",
+        "light_rail": "yes",
+        "local_ref": "SBNT4",
+        "name": "São Bento",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6108165,
+          41.1447883
+        ]
+      },
+      "id": "node/6632372470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372471",
+        "alt_name": "Aliados Metro; Aliados Metro Station",
+        "light_rail": "yes",
+        "name": "Aliados",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q10275561",
+        "wikipedia": "pt:Estação Aliados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6109746,
+          41.1485925
+        ]
+      },
+      "id": "node/6632372471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372472",
+        "light_rail": "yes",
+        "name": "Faria Guimarães",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10275755",
+        "wikipedia": "pt:Estação Faria Guimarães"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6092828,
+          41.1572283
+        ]
+      },
+      "id": "node/6632372472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372473",
+        "light_rail": "yes",
+        "name": "Marquês",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10275965",
+        "wikipedia": "pt:Estação Marquês"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.604297,
+          41.1611709
+        ]
+      },
+      "id": "node/6632372473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372474",
+        "light_rail": "yes",
+        "name": "Pólo Universitário",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10276077",
+        "wikipedia": "pt:Estação Pólo Universitário"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6036568,
+          41.1746021
+        ]
+      },
+      "id": "node/6632372474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372475",
+        "light_rail": "yes",
+        "name": "Combatentes",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10275660",
+        "wikipedia": "pt:Estação Combatentes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5988953,
+          41.1650814
+        ]
+      },
+      "id": "node/6632372475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6632372476",
+        "light_rail": "yes",
+        "name": "Salgueiros",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q10276121",
+        "wikipedia": "pt:Estação Salgueiros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5986615,
+          41.1692975
+        ]
+      },
+      "id": "node/6632372476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7203041550",
+        "light_rail": "yes",
+        "name": "Casa da Música II",
+        "proposed:railway": "station",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6290867,
+          41.1599955
+        ]
+      },
+      "id": "node/7203041550"
+    }
+  ]
+}

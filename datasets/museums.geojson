@@ -1,0 +1,616 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-04-26T00:11:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1652873556",
+        "addr:city": "Porto",
+        "addr:housenumber": "291",
+        "addr:postcode": "4050-428",
+        "addr:street": "Rua de Nossa Senhora de Fátima",
+        "name": "Casa-Museu Marta Ortigão Sampaio",
+        "opening_hours": "Tu-Su 10:00-17:30; PH off",
+        "phone": "+351 226 066 568",
+        "source": "Câmara Municipal do Porto",
+        "tourism": "museum",
+        "website": "http://www.cm-porto.pt/cultura/museus-e-arquivos/casa-museu-marta-ortigao-sampaio",
+        "wikidata": "Q9698020",
+        "wikipedia": "pt:Casa-Museu Marta Ortigão Sampaio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6249723,
+          41.1595866
+        ]
+      },
+      "id": "node/1652873556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206214891",
+        "addr:city": "Porto",
+        "addr:postcode": "4050-208",
+        "addr:street": "Largo do Colégio",
+        "alt_name": "Museu Diocesano de Arte Sacra; Museu de Arte Sacra e Arqueologia do Seminário Maior do Porto",
+        "contact:facebook": "www.facebook.com/masa.smp.pt/",
+        "fee": "yes",
+        "fee:amount": "2€",
+        "name": "Museu de Arte Sacra e Arqueologia",
+        "opening_hours": "Sa 10:00-13:00, 14:00-18:00; PH off; Mo 10:00-17:00; Tu-Fr 09:00-17:00",
+        "phone": "+351 223 395 020",
+        "short_name": "MASA",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6125743,
+          41.1422336
+        ]
+      },
+      "id": "node/2206214891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2208055757",
+        "name": "Palácio das Artes",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6148998,
+          41.1427507
+        ]
+      },
+      "id": "node/2208055757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2478836067",
+        "addr:postcode": "4050-253",
+        "addr:street": "Rua de Ferreira Borges",
+        "contact:email": "correio@cciporto.pt",
+        "contact:fax": "+351 223 399090",
+        "contact:phone": "+351 223 399000",
+        "contact:website": "http://www.palaciodabolsa.com",
+        "fee": "yes",
+        "fee:amount": "10€;student, senior: 6.5€;<12years old: free",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Palacio_da_Bolsa%2C_Porto.jpg",
+        "name": "Palácio da Bolsa",
+        "name:de": "Palácio da Bolsa - Bolsapalast",
+        "name:ko": "볼사 궁전",
+        "name:tr": "MÜZE",
+        "name:zh": "證券交易所宮",
+        "opening_hours": "Nov-Mar: Mo-Su 09:00-12:30,14:00-17:30; Apr-Oct: Mo-Su 09:00-18:30; Dec 25 off; Jan 1 off",
+        "tourism": "museum",
+        "wheelchair": "yes",
+        "wikidata": "Q1371109",
+        "wikipedia": "pt:Palácio da Bolsa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6158454,
+          41.1413903
+        ]
+      },
+      "id": "node/2478836067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2729914235",
+        "fee": "yes",
+        "name": "Museus da Universidade",
+        "tourism": "museum",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6158377,
+          41.1461457
+        ]
+      },
+      "id": "node/2729914235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2892472764",
+        "addr:city": "Porto",
+        "addr:housename": "Palácio dos Viscondes de Balsemão",
+        "addr:housenumber": "71",
+        "addr:postcode": "4050-157",
+        "addr:street": "Praça de Carlos Alberto",
+        "alt_name": "Gabinete de Numismática",
+        "fee": "no",
+        "name": "Museu Municipal de Numismática",
+        "opening_hours": "Tu-Su 10:00-17:30; PH off",
+        "phone": "+351 223 393 480",
+        "tourism": "museum",
+        "website": "http://www.cm-porto.pt/cultura/museus-e-arquivos/gabinete-de-numismatica_3",
+        "wikidata": "Q10287828"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6155473,
+          41.1489939
+        ]
+      },
+      "id": "node/2892472764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3145554676",
+        "addr:city": "Porto",
+        "addr:housename": "Estádio do Dragão",
+        "addr:postcode": "4350-415",
+        "addr:street": "Via Futebol Clube do Porto",
+        "email": "museu@fcporto.pt",
+        "int_name": "FC Porto Museum",
+        "museum": "sports",
+        "name": "Museu Futebol Clube do Porto",
+        "name:de": "FC Porto Museum",
+        "name:en": "FC Porto Museum",
+        "name:ko": "FC 포르투 박물관",
+        "name:ru": "Музей футбольного клуба Порту",
+        "note": "was 'highway:VCI Porto' ?!",
+        "old_name": "Museu FC Porto by BMG",
+        "opening_hours": "Mo 14:30-19:00; Tu-Su 10:00-19:00",
+        "phone": "+351 225 570 418",
+        "shop": "FC Porto Store",
+        "source": "http://www.fcporto.pt/pt/clube/museu-fc-porto/Pages/museu-fc-porto.aspx",
+        "tourism": "museum",
+        "website": "http://www.museufcporto.pt",
+        "wikidata": "Q15411526",
+        "wikipedia": "pt:Museu do FC Porto by BMG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5823857,
+          41.1611197
+        ]
+      },
+      "id": "node/3145554676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3396197687",
+        "name": "Casa-Museu Engenheiro António de Almeida",
+        "operator": "Fundação Engenheiro António de Almeida",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.640278,
+          41.161889
+        ]
+      },
+      "id": "node/3396197687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4553102628",
+        "fee": "yes",
+        "fee:amount": "1€",
+        "name": "Museu do Centro Hospitalar do Porto",
+        "ref:vatin": "PT508331471",
+        "tourism": "museum",
+        "website": "http://museu.chporto.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6181753,
+          41.1467916
+        ]
+      },
+      "id": "node/4553102628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554424176",
+        "addr:city": "Porto",
+        "addr:housenumber": "790",
+        "addr:street": "Rua do Campo Alegre",
+        "museum": "history",
+        "name": "Museu do Holocausto do Porto",
+        "operator": "Comunidade Judaica do Porto",
+        "operator:type": "religious",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6378557,
+          41.1531032
+        ]
+      },
+      "id": "node/4554424176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4586091689",
+        "addr:street": "Campo dos Mártires da Pátria",
+        "name": "Centro Português de Fotografia",
+        "name:en": "Portuguese Photography Centre",
+        "name:pt": "Centro Português de Fotografia",
+        "opening_hours": "Tu-Fr 10:00-18:00; Sa-Su 15:00-19:00",
+        "tourism": "museum",
+        "wikidata": "Q18484034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.615892,
+          41.1447171
+        ]
+      },
+      "id": "node/4586091689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4703885869",
+        "addr:city": "Porto",
+        "addr:housenumber": "728",
+        "addr:postcode": "4100-246",
+        "addr:street": "Rua Engenheiro Ferreira Dias",
+        "contact:facebook": "https://www.facebook.com/museufarmacia/",
+        "contact:phone": "+351 226 167 995",
+        "fee": "yes",
+        "fee:amount": "6.50€",
+        "name": "Museu da Farmácia",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 14:00-18:00; Dec 24 off; Dec 31 off",
+        "tourism": "museum",
+        "website": "https://www.museudafarmacia.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.645448,
+          41.1751341
+        ]
+      },
+      "id": "node/4703885869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4928901421",
+        "addr:housenumber": "106",
+        "addr:street": "Rua de Miragaia",
+        "name": "World of Discoveries",
+        "tourism": "museum",
+        "wikidata": "Q19708475"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6208881,
+          41.1433892
+        ]
+      },
+      "id": "node/4928901421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6303892985",
+        "addr:city": "Porto",
+        "addr:housename": "Palácio da Justiça",
+        "addr:postcode": "4099-012",
+        "addr:street": "Campo dos Mártires da Pátria",
+        "contact:phone": "+351 222 092 600",
+        "contact:website": "https://www.trp.pt/museu-judiciario",
+        "name": "Museu Judiciário do Tribunal da Relação do Porto",
+        "name:en": "Judiciary Museum of Oporto Appeal Court",
+        "opening_hours": "Mo-Fr 09:00-12:30,13:30-17:00",
+        "operator": "Tribunal da Relação do Porto",
+        "operator:type": "government",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6177845,
+          41.1454185
+        ]
+      },
+      "id": "node/6303892985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549945405",
+        "addr:city": "Porto",
+        "addr:postcode": "4050-305",
+        "addr:street": "Rua de Dom Hugo",
+        "name": "Museu da Fundação Maria Isabel Guerra Junqueiro e Luís Mesquita de Carvalho",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6105669,
+          41.1422789
+        ]
+      },
+      "id": "node/6549945405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6661617235",
+        "alt_name": "Museu da Irmandade dos Clérigos",
+        "fee": "yes",
+        "fee:amount": "5€",
+        "name": "Museu dos Clérigos",
+        "note": "A taxa base de 5€ inclui o acesso ao museu e à torre",
+        "operator": "Irmandade dos Clérigos",
+        "start_date": "2018-08-29",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6145271,
+          41.1456849
+        ]
+      },
+      "id": "node/6661617235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6661619777",
+        "addr:city": "Porto",
+        "addr:housenumber": "228",
+        "addr:postcode": "4050-313",
+        "addr:street": "Rua Jorge Viterbo Ferreira",
+        "fee": "no",
+        "fixme": "Confirmar se é acessível apenas a escolas ou ao público em geral; na web indica que é apenas para escolas mas no horário de abertura indica para o público em geral",
+        "name": "Museu de Anatomia Professor Nuno Grande",
+        "opening_hours": "Mo-Fr 09:30-12:00,14:00-15:00",
+        "operator": "Instituto de Ciências Biomédicas de Abel Salazar",
+        "phone": "+351 220 428 000",
+        "reservation": "required",
+        "tourism": "museum",
+        "website": "https://sigarra.up.pt/icbas/pt/uni_geral.unidade_view?pv_unidade=140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.624348,
+          41.147436
+        ]
+      },
+      "id": "node/6661619777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6669923450",
+        "alt_name": "Museu da Ordem de São Franciscano",
+        "name": "Museu de São Francisco do Porto",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6163577,
+          41.1410119
+        ]
+      },
+      "id": "node/6669923450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6680293302",
+        "addr:city": "Porto",
+        "addr:housenumber": "716",
+        "addr:street": "Rua de Costa Cabral",
+        "fee": "yes",
+        "fee:amount": "2€",
+        "name": "Casa-Museu Fernando de Castro",
+        "operator": "Museu Nacional de Soares dos Reis",
+        "phone": "+351 223 393 770",
+        "reservation": "required",
+        "tourism": "museum",
+        "website": "http://www.museusoaresdosreis.gov.pt/pt-PT/menu_fernando_castro/ContentList.aspx",
+        "wikidata": "Q19903755"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5958556,
+          41.1664511
+        ]
+      },
+      "id": "node/6680293302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6680293304",
+        "addr:city": "Porto",
+        "addr:housenumber": "39",
+        "addr:postcode": "4000-041",
+        "addr:street": "Rua da Alegria",
+        "name": "Liga dos Combatentes - Núcleo Museológico do Porto",
+        "opening_hours": "Mo-Fr 09:30-12:00,14:00-18:00",
+        "phone": "+351 222 006 101",
+        "tourism": "museum",
+        "website": "http://www.ligacombatentes.org.pt/museus/museu_do_porto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6042551,
+          41.1476324
+        ]
+      },
+      "id": "node/6680293304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7012394685",
+        "name": "Galeria Lehmann + Silva",
+        "name:en": "Art Gallery Lehmann + Silva",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5982785,
+          41.1458658
+        ]
+      },
+      "id": "node/7012394685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7012394686",
+        "name": "Galeria Nuno Centeno",
+        "name:en": "Art Gallery Nuno Centeno",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6019982,
+          41.1558317
+        ]
+      },
+      "id": "node/7012394686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7012396885",
+        "name": "Galeria Senhora Presidenta",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5985401,
+          41.1449118
+        ]
+      },
+      "id": "node/7012396885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7012398985",
+        "name": "Galeria SALA 117",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6119599,
+          41.1620213
+        ]
+      },
+      "id": "node/7012398985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7012745985",
+        "fixme": "ver localização correta",
+        "name": "Galeria de Arquitectura",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6005441,
+          41.1468616
+        ]
+      },
+      "id": "node/7012745985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8636621244",
+        "museum": "nature",
+        "name": "Galeria da Biodiversidade - Centro Ciência Viva - Museu de História Natural e da Ciência da UPorto",
+        "operator": "Universidade do Porto",
+        "operator:type": "public",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.642456,
+          41.153623
+        ]
+      },
+      "id": "node/8636621244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8685454938",
+        "fee": "yes",
+        "museum": "science",
+        "name": "Centro Ciência Viva - Planetário do Porto",
+        "operator": "Universidade do Porto",
+        "operator:type": "public",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6386767,
+          41.15065
+        ]
+      },
+      "id": "node/8685454938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9429130947",
+        "alt_name": "Museu da Faculdade de Belas Artes do Porto",
+        "name": "Museu da Faculdade de Belas Artes da Universidade do Porto",
+        "opening_hours": "Mo-Fr 09:30-13:00,14:00-18:00",
+        "start_date": "1996",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6002243,
+          41.1453385
+        ]
+      },
+      "id": "node/9429130947"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-04-26T01:01:18Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2453920843",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "597",
+        "addr:postcode": "4150-389",
+        "addr:street": "Rua Guerra Junqueiro",
+        "amenity": "school",
+        "contact:fax": "+351 226 003301",
+        "contact:phone": "+351 226 076830",
+        "contact:website": "www.escolasantamaria.pt",
+        "name": "Escola Santa Maria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6363565,
+          41.1582336
+        ]
+      },
+      "id": "node/2453920843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2829209599",
+        "amenity": "school",
+        "name": "InDance Academia de Artes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6035345,
+          41.1518816
+        ]
+      },
+      "id": "node/2829209599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2925155478",
+        "amenity": "school",
+        "name": "Escola Profissional Profitecla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6072717,
+          41.1518507
+        ]
+      },
+      "id": "node/2925155478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891282101",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:door": "Esquerdo",
+        "addr:flats": "3",
+        "addr:housenumber": "310",
+        "addr:postcode": "4000-443",
+        "addr:street": "Rua de Santa Catarina",
+        "addr:unit": "3º Esquerdo",
+        "amenity": "school",
+        "contact:phone": "+351 222 081783; +351 934 561764",
+        "contact:website": "www.escoladeyoga.com",
+        "name": "Escola de Yoga Antigo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6059873,
+          41.1488817
+        ]
+      },
+      "id": "node/3891282101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4257803087",
+        "addr:housenumber": "318",
+        "addr:street": "Rua de António Cardoso",
+        "amenity": "school",
+        "name": "DeRose Method - Casa Luís Lopes",
+        "website": "http://casaluislopes.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6412668,
+          41.1569399
+        ]
+      },
+      "id": "node/4257803087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554102018",
+        "amenity": "school",
+        "name": "Escola Balleteatro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6140549,
+          41.1414093
+        ]
+      },
+      "id": "node/4554102018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612027357",
+        "amenity": "school",
+        "name": "Conservatório de Música do Porto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6235805,
+          41.1553908
+        ]
+      },
+      "id": "node/4612027357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621612342",
+        "amenity": "school",
+        "name": "Escola de Condução Portuense",
+        "school": "driving"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6053197,
+          41.1440382
+        ]
+      },
+      "id": "node/4621612342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6398500336",
+        "addr:city": "Porto",
+        "addr:housenumber": "261",
+        "addr:postcode": "4250-255",
+        "addr:street": "Rua do Monte Alegre",
+        "amenity": "school",
+        "name": "Smarties - Centro de Estudos",
+        "website": "https://www.smartiescentrodeestudos.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6167841,
+          41.1650687
+        ]
+      },
+      "id": "node/6398500336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025021187",
+        "amenity": "school",
+        "name": "Academia L'Oreal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.644728,
+          41.1602472
+        ]
+      },
+      "id": "node/9025021187"
+    }
+  ]
+}

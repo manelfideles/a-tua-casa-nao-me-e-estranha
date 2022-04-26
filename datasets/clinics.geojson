@@ -1,0 +1,589 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-04-26T00:11:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2053577648",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Central do Bonfim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5959625,
+          41.1536297
+        ]
+      },
+      "id": "node/2053577648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206240419",
+        "amenity": "clinic",
+        "name": "Centro de Saúde da Batalha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6086975,
+          41.1429601
+        ]
+      },
+      "id": "node/2206240419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2243750012",
+        "amenity": "clinic",
+        "emergency": "no",
+        "name": "Clínica Doutor Pinto Leite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6091618,
+          41.1473557
+        ]
+      },
+      "id": "node/2243750012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2449502665",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "endocrinology",
+        "name": "Endoclab: Endocrinologia Clínica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.605642,
+          41.1524136
+        ]
+      },
+      "id": "node/2449502665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2455181661",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Oporto Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6251352,
+          41.1570434
+        ]
+      },
+      "id": "node/2455181661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2914561220",
+        "amenity": "clinic",
+        "name": "Clínica de Podologia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6104249,
+          41.1521112
+        ]
+      },
+      "id": "node/2914561220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2973887859",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Luís Marinho - Análises Clínicas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6059049,
+          41.1532638
+        ]
+      },
+      "id": "node/2973887859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694426933",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica M. Moreira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6092607,
+          41.1490614
+        ]
+      },
+      "id": "node/3694426933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694434350",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Delta Laboratórios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6097525,
+          41.1489675
+        ]
+      },
+      "id": "node/3694434350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694437967",
+        "amenity": "clinic",
+        "name": "Labmed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6093544,
+          41.149025
+        ]
+      },
+      "id": "node/3694437967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694736191",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Neurofisio Sá da Bandeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6057873,
+          41.1521717
+        ]
+      },
+      "id": "node/3694736191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694757644",
+        "addr:street": "Rua Sá da Bandeira",
+        "amenity": "clinic",
+        "description": "mesmo grupo da manoph",
+        "name": "Laboratório de Endoscopia Digestiva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6052696,
+          41.1529592
+        ]
+      },
+      "id": "node/3694757644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696033296",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratório Análises Clínicas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6068546,
+          41.1501521
+        ]
+      },
+      "id": "node/3696033296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891282096",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "108",
+        "addr:postcode": "4000-443",
+        "addr:street": "Rua de Santa Catarina",
+        "amenity": "clinic",
+        "description": "Doutor Henrique Gil da Costa (clínica geral); Doutor Fernando Gil da Costa (cirurgia geral); Doutor Jorge Valverde (oftalmologia)",
+        "healthcare": "clinic",
+        "name": "Clínica Doutor Gil da Costa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6066709,
+          41.1471122
+        ]
+      },
+      "id": "node/3891282096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554071957",
+        "amenity": "clinic",
+        "name": "Clínica Dentária do Infante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6135022,
+          41.1419768
+        ]
+      },
+      "id": "node/4554071957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621642693",
+        "amenity": "clinic",
+        "name": "Labmed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6061324,
+          41.1443169
+        ]
+      },
+      "id": "node/4621642693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550884958",
+        "amenity": "clinic",
+        "emergency": "no",
+        "name": "Clínica de Radiologia Joaquim Chaves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.609269,
+          41.1474404
+        ]
+      },
+      "id": "node/6550884958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647824366",
+        "addr:city": "Porto",
+        "addr:housenumber": "286",
+        "addr:street": "Rua de Santa Catarina",
+        "addr:unit": "sala 4",
+        "amenity": "clinic",
+        "contact:phone": "+351 919 052 841; +351 961 927 340",
+        "healthcare": "clinic",
+        "name": "Gabinete Audiometria Auditiva Jorge Medina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6059065,
+          41.1486426
+        ]
+      },
+      "id": "node/6647824366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647824368",
+        "addr:city": "Porto",
+        "addr:housenumber": "286",
+        "addr:street": "Rua de Santa Catarina",
+        "addr:unit": "1º direito, salas 4 e 5",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratório Pótese Dentária António Fernando de Urrice Domingues"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6060084,
+          41.1486547
+        ]
+      },
+      "id": "node/6647824368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647824411",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Oftamológica Doutor Queiroz Marinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6065107,
+          41.1473426
+        ]
+      },
+      "id": "node/6647824411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6809920991",
+        "addr:housenumber": "726",
+        "addr:street": "Rua Sá da Bandeira, 2° Direito 4000-432 Porto",
+        "amenity": "clinic",
+        "description": "medicina do sono, pneumonia alergologia psiquiatria",
+        "healthcare": "clinic",
+        "name": "Clínica do Sono - Doutora Júlia Machado",
+        "phone": "223389827 / 933488074",
+        "website": "www.clinicadosonoporto.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6057176,
+          41.1523764
+        ]
+      },
+      "id": "node/6809920991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7858212496",
+        "addr:housenumber": "603",
+        "addr:street": "Rua Sá da Bandeira",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dermatology",
+        "name": "Corporal facial clinic",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-13:00",
+        "phone": "222031016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6066237,
+          41.1513859
+        ]
+      },
+      "id": "node/7858212496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7904319854",
+        "amenity": "clinic",
+        "description": "clínica análises",
+        "healthcare": "clinic",
+        "name": "Unilabs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6308383,
+          41.1524924
+        ]
+      },
+      "id": "node/7904319854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8390290992",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Luz - Clínica do Porto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6499642,
+          41.1622414
+        ]
+      },
+      "id": "node/8390290992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8586054910",
+        "addr:housenumber": "434",
+        "addr:street": "Avenida da França",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "LABMED",
+        "operator": "Lmmed SGPS SA",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6271566,
+          41.1625871
+        ]
+      },
+      "id": "node/8586054910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8586054911",
+        "addr:housenumber": "476",
+        "addr:street": "Avenida da França",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "fertility",
+        "name": "Bebé Vida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6273611,
+          41.1629263
+        ]
+      },
+      "id": "node/8586054911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8677637957",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unilabs - Análises Clinicas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6149722,
+          41.1471065
+        ]
+      },
+      "id": "node/8677637957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9035704703",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "EDP Sávida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6330261,
+          41.159024
+        ]
+      },
+      "id": "node/9035704703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9176659217",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "15",
+        "addr:postcode": "4000-285",
+        "addr:street": "Rua dos Heróis e Mártires de Angola",
+        "alt_name": "Laboratório do Porto do Grupo Germano de Sousa",
+        "amenity": "clinic",
+        "healthcare": "laboratory",
+        "name": "Germano de Sousa",
+        "phone": "+351 220 043 010",
+        "website": "https://www.germanodesousa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6109014,
+          41.1511438
+        ]
+      },
+      "id": "node/9176659217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9643600993",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Doutor Vítor da Silva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6071846,
+          41.1511957
+        ]
+      },
+      "id": "node/9643600993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9650375594",
+        "amenity": "clinic",
+        "name": "Enfermeiros Novos do Porto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6074448,
+          41.1513714
+        ]
+      },
+      "id": "node/9650375594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9650375595",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Oftalmologia António Freitas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6074944,
+          41.1512452
+        ]
+      },
+      "id": "node/9650375595"
+    }
+  ]
+}
