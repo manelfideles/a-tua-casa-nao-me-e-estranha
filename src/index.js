@@ -40,26 +40,18 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZmlkZWxlcyIsImEiOiJjbDJoYzJoeGQwNjdvM25vN29tY
 // ------------------------
 
 // FUNCTIONS --------------
-async function loadGeoJson(map, poi_id, color, returnVal) {
-
-    // return house array
-    if (returnVal) {
-        const res = await fetch('../datasets/houses.geojson');
-        return res.json();
-    }
-
-    else {
-        map.addSource(poi_id, {
-            type: 'geojson',
-            data: `http://127.0.0.1:5500/a-tua-casa-nao-me-e-estranha/datasets/${poi_id}.geojson`
-        })
-
+function loadGeoJson(map, poi_id, color, draw) {
+    map.addSource(poi_id, {
+        type: 'geojson',
+        data: `http://127.0.0.1:5500/a-tua-casa-nao-me-e-estranha/datasets/${poi_id}.geojson`
+    })
+    if (draw) {
         map.addLayer({
             'id': `${poi_id}-layer`,
             'type': 'circle',
             'source': poi_id,
             'paint': {
-                'circle-radius': 5,
+                'circle-radius': 2,
                 'circle-color': color,
             }
         });
@@ -67,7 +59,6 @@ async function loadGeoJson(map, poi_id, color, returnVal) {
 }
 
 function drawSearchRadius(index, map, center, options) {
-
     console.log('Center point of', index, ': ', center);
     const searchRadius = turf.circle(center, radius, options);
 
@@ -77,54 +68,64 @@ function drawSearchRadius(index, map, center, options) {
     });
 }
 
-async function drawHouses(map) {
-    const houses = await loadGeoJson(map, 'houses', 'white', true);
-    const houseArray = houses.features;
-    for (let i = 0; i < houseArray.length; i++) {
-        const house = houseArray[i];
+function drawHouses(map) {
+    // houses
+    loadGeoJson(map, 'houses', 'white', false);
+    map.addLayer({
+        'id': 'houses-layer',
+        'type': 'circle',
+        'source': 'houses',
+        'paint': {
+            'circle-radius': 5,
+            'circle-color': 'lightgreen',
+            'circle-stroke-width': 2,
+            'circle-stroke-color': 'white'
+        }
+    });
 
-        console.log(radius);
-        drawSearchRadius(
-            i,
-            map,
-            house.geometry.coordinates,
-            options
-        )
+    // popup
+    const popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: true
+    });
+    map.on('click', 'houses-layer', (e) => {
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        popup.setLngLat(coordinates).setHTML(coordinates).addTo(map);
+        // lookup das coordenadas no dataset que tem a info para o popup
+        // display
+    })
 
-        const popup = new mapboxgl.Popup({ offset: 25 }).setText(
-            `Olá, eu sou a casa número ${i}`
-        );
-
-        var elem = document.createElement('div');
-        elem.innerHTML = 'MARKER';
-        elem.class = 'marker';
-
-        const marker = new mapboxgl.Marker()
-            .setLngLat(house.geometry.coordinates)
-            // .setPopup(popup)
-            .addTo(map);
-
-        marker.getElement().addEventListener('mouseenter', () => {
-            console.log(house.geometry.coordinates);
+    // draw radius on hover
+    map.on('mouseenter', 'houses-layer', (e) => {
+        map.getCanvas().style.cursor = 'pointer';
+        const center = e.features[0].geometry.coordinates.slice();
+        const searchRadius = turf.circle(center, radius, options);
+        if (!map.getSource('radius-data'))
+            map.addSource('radius-data', {
+                type: 'geojson',
+                data: searchRadius
+            });
+        if (!map.getLayer('radius-layer'))
             map.addLayer({
-                'id': `circle-${i}`,
-                'type': 'fill',
-                'source': `circleData-${i}`,
-                'paint': {
-                    'fill-color': 'yellow',
-                    'fill-opacity': 0.25,
+                id: "radius-layer",
+                type: "fill",
+                source: "radius-data",
+                paint: {
+                    "fill-color": "yellow",
+                    "fill-opacity": 0.25
                 }
             });
-        })
-        marker.getElement().addEventListener('mouseleave', () => {
-            console.log(house.geometry.coordinates);
-            if (map.getLayer(`circle-${i}`)) {
-                map.removeLayer(`circle-${i}`);
-            }
-        })
-    }
+    })
+    map.on('mouseleave', 'houses-layer', (e) => {
+        map.getCanvas().style.cursor = '';
+        map.removeLayer('radius-layer');
+        map.removeSource('radius-data');
+    })
 }
+// ------------------------
 
+
+// MAIN -------------------
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/mapbox/dark-v10', // style URL
@@ -136,28 +137,9 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     // load POIs onto map representation
     Object.keys(fileIds).map((key) => {
-        loadGeoJson(map, key, fileIds[key], false);
+        loadGeoJson(map, key, fileIds[key], true);
     })
 
-    loadGeoJson(map, 'houses', 'white')
     drawHouses(map);
 
 })
-
-const rangeBtns = document.querySelectorAll('.range-value');
-let activeBtn = null;
-rangeBtns.forEach((btn) => {
-    btn.addEventListener('click', (ev) => {
-        ev.target.style.backgroundColor = 'lightgrey';
-        radius = parseFloat(ev.target.innerHTML);
-        console.log(parseFloat(radius));
-        if (activeBtn == null && activeBtn != ev.currentTarget) {
-            ev.target.style.backgroundColor = null;
-        }
-        activeBtn = ev.currentTarget;
-        /* for (let i = 0; i < 10; i++) {
-            const element = array[i];
-            
-        } */
-    })
-});
