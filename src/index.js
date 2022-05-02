@@ -23,15 +23,15 @@ const fileIds = {
     'pharmacies': 'pink',
     'restaurants': 'violet',
     'schools': 'teal',
-    'subway-stops': 'mustard',
+    'subway-stops': 'black',
     'supermarkets': 'black',
     'tram-stops': 'gold',
 }
 
 // Search radius options
-var radius = 0.5;
+var radius = 0.25;
 const options = {
-    steps: 30,
+    steps: 45,
     units: "kilometers",
 };
 
@@ -86,17 +86,12 @@ function drawHouses(map) {
     // popup
     const popup = new mapboxgl.Popup({
         closeButton: false,
-        closeOnClick: true
+        closeOnClick: false
     });
     map.on('click', 'houses-layer', (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
         popup.setLngLat(coordinates).setHTML(coordinates).addTo(map);
-        // lookup das coordenadas no dataset que tem a info para o popup
-        // display
-    })
 
-    // draw radius on hover
-    map.on('mouseenter', 'houses-layer', (e) => {
         map.getCanvas().style.cursor = 'pointer';
         const center = e.features[0].geometry.coordinates.slice();
         const searchRadius = turf.circle(center, radius, options);
@@ -105,21 +100,43 @@ function drawHouses(map) {
                 type: 'geojson',
                 data: searchRadius
             });
-        if (!map.getLayer('radius-layer'))
+        if (!map.getLayer('radius-layer')) {
+            console.log('added layer');
             map.addLayer({
                 id: "radius-layer",
+                type: "line",
+                source: "radius-data",
+                paint: {
+                    "line-color": "yellow",
+                    /* "fill-opacity": 0.25 */
+                }
+            });
+            map.addLayer({
+                id: "radius-layer-2",
                 type: "fill",
                 source: "radius-data",
                 paint: {
                     "fill-color": "yellow",
-                    "fill-opacity": 0.25
+                    "fill-opacity": 0.10
                 }
             });
-    })
-    map.on('mouseleave', 'houses-layer', (e) => {
-        map.getCanvas().style.cursor = '';
-        map.removeLayer('radius-layer');
-        map.removeSource('radius-data');
+        }
+
+        else {
+            if (map.getLayer('radius-layer')) {
+                console.log('removed layer');
+                map.removeLayer('radius-layer');
+                map.removeLayer('radius-layer-2');
+            }
+            if (map.getSource('radius-data')) {
+                map.removeSource('radius-data');
+                popup.remove();
+                map.getCanvas().style.cursor = '';
+            }
+        }
+
+        // lookup das coordenadas no dataset que tem a info para o popup
+        // display
     })
 }
 // ------------------------
