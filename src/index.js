@@ -43,7 +43,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZmlkZWxlcyIsImEiOiJjbDJoYzJoeGQwNjdvM25vN29tY
 function loadGeoJson(map, poi_id, color, draw) {
     map.addSource(poi_id, {
         type: 'geojson',
-        data: `http://127.0.0.1:5500/a-tua-casa-nao-me-e-estranha/datasets/${poi_id}.geojson`
+        data: `http://127.0.0.1:5500/datasets/${poi_id}.geojson`
     })
     if (draw) {
         map.addLayer({
