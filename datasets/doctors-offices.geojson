@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-04-26T00:12:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3695767844",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Laserin Clínica de Estética"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.606203,
+          41.1510528
+        ]
+      },
+      "id": "node/3695767844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4018121178",
+        "addr:city": "Porto",
+        "addr:housenumber": "6 - Sala 205",
+        "addr:postcode": "4100-456",
+        "addr:street": "Rua João de Deus",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "WellMedicalSPA - Clínica Médica",
+        "opening_hours": "14:00 - 19:00",
+        "phone": "+351 226 091 956",
+        "website": "http://www.wellmedicalspa.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6354628,
+          41.1591681
+        ]
+      },
+      "id": "node/4018121178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5424568725",
+        "amenity": "doctors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6117544,
+          41.1502875
+        ]
+      },
+      "id": "node/5424568725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8024456485",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Norte Care"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114807,
+          41.1610602
+        ]
+      },
+      "id": "node/8024456485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8986006517",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Cruz Vermelha",
+        "name:fr": "Croix rouge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6244495,
+          41.1599939
+        ]
+      },
+      "id": "node/8986006517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9036186375",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "dentist",
+        "name": "Dr. João Neto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6334607,
+          41.1588455
+        ]
+      },
+      "id": "node/9036186375"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+    "type": "FeatureCollection",
+    "name": "houses",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.1564238,
+                "Longitude": -8.6249723
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.6249723,
+                    41.1564238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.1427507,
+                "Longitude": -8.6125743
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.6125743,
+                    41.1427507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.150854229226548,
+                "Longitude": -8.6114910857420099
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.61149108574201,
+                    41.150854229226548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.160823656365534,
+                "Longitude": -8.7128865837434123
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.712886583743412,
+                    41.160823656365534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.20441494400505,
+                "Longitude": -8.7133585157947969
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.713358515794797,
+                    41.20441494400505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.140418564611799,
+                "Longitude": -8.6138050751552466
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.613805075155247,
+                    41.140418564611799
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.140582894587105,
+                "Longitude": -8.6146474484942761
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.614647448494276,
+                    41.140582894587105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.142145919582674,
+                "Longitude": -8.6137492552351898
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.61374925523519,
+                    41.142145919582674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.142141013467317,
+                "Longitude": -8.6133941632954585
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.613394163295458,
+                    41.142141013467317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Latitude": 41.141764839822955,
+                "Longitude": -8.6131610575636426
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.613161057563643,
+                    41.141764839822955
+                ]
+            }
+        }
+    ]
+}

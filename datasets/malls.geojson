@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-04-26T00:29:54Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460379906",
+        "addr:city": "Porto",
+        "addr:housenumber": "159",
+        "addr:postcode": "4150-146",
+        "addr:street": "Praça do Bom Sucesso",
+        "alt_name": "Centro Comercial Galerias Penísula",
+        "contact:facebook": "http://facebook.com/peninsulaboutiquecenter",
+        "contact:fax": "+351 225 430 771",
+        "contact:phone": "+351 226 001 862",
+        "contact:website": "http://www.peninsula.pt",
+        "name": "Península Boutique Center",
+        "shop": "mall",
+        "toilets": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6299304,
+          41.1564238
+        ]
+      },
+      "id": "node/2460379906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025035574",
+        "name": "Galeria Comercial Edifício Bristol",
+        "opening_hours": "Mo-Sat 10:00-19:00",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6434312,
+          41.1600103
+        ]
+      },
+      "id": "node/9025035574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9037638246",
+        "disused": "yes",
+        "disused:shop": "yes",
+        "name": "Centro Comercial Boavista",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6351179,
+          41.1590647
+        ]
+      },
+      "id": "node/9037638246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9458792801",
+        "addr:city": "Porto",
+        "addr:housenumber": "1517",
+        "addr:street": "Rua do Campo Alegre",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=182659228539908",
+        "contact:phone": "+351 226173320",
+        "name": "Centro Comercial Campo Alegre",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6468437,
+          41.153998
+        ]
+      },
+      "id": "node/9458792801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9458792802",
+        "addr:housenumber": "728",
+        "addr:street": "Rua de Júlio Dinis",
+        "alt_name": "Centro Comercial Parque Itália; Shopping Center Itália",
+        "contact:phone": "+351 225025165",
+        "name": "Centro Comercial Itália",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6266802,
+          41.1556539
+        ]
+      },
+      "id": "node/9458792802"
+    }
+  ]
+}
