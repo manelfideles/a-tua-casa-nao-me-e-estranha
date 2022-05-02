@@ -157,6 +157,14 @@ map.on('load', () => {
         loadGeoJson(map, key, fileIds[key], true);
     })
 
+    // @TODO - atualizar o radius on click nos botoes do painel:
+    // experimentar remover bloco do radius
+    // daqui
     drawHouses(map);
+
+    // e metê-lo aqui
+    // btns on click {
+    //     map.on(bloco do radius)
+    // }
 
 })
