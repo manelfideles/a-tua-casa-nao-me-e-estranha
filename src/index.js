@@ -50,6 +50,9 @@ function loadGeoJson(map, poi_id, color, draw) {
             'id': `${poi_id}-layer`,
             'type': 'circle',
             'source': poi_id,
+            'layout': {
+                'visibility': 'visible'
+            },
             'paint': {
                 'circle-radius': 2,
                 'circle-color': color,
@@ -139,6 +142,57 @@ function drawHouses(map) {
         // display
     })
 }
+
+function togglePOIsLayer() {
+    // Enumerate ids of the layers.
+    const toggleableLayerIds = Object.keys(fileIds);
+
+    // Set up the corresponding toggle button for each layer.
+    for (const id of toggleableLayerIds) {
+        const layerid = `${id}-layer`;
+
+        // Skip layers that already have a button set up.
+        if (document.getElementById(layerid)) {
+            continue;
+        }
+
+        // Create a link.
+        const link = document.getElementById('item');
+        link.id = layerid;
+        // link.href = '#';
+        // link.textContent = layerid;
+        link.className = 'active';
+
+        // Show or hide layer when the toggle is clicked.
+        link.onclick = function (e) {
+            const clickedLayer = layerid;
+            e.preventDefault();
+            e.stopPropagation();
+
+            const visibility = map.getLayoutProperty(
+                clickedLayer,
+                'visibility'
+            );
+
+            // Toggle layer visibility by changing the layout object's visibility property.
+            if (visibility === 'visible') {
+                map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+                this.className = '';
+            } else {
+                this.className = 'active';
+                map.setLayoutProperty(
+                    clickedLayer,
+                    'visibility',
+                    'visible'
+                );
+            }
+        };
+
+        const layers = document.getElementById('menu');
+        layers.appendChild(link);
+    }
+}
+
 // ------------------------
 
 
@@ -149,6 +203,18 @@ const map = new mapboxgl.Map({
     center: porto,
     zoom: 5, // starting zoom
     maxBounds: bounds
+});
+
+window.addEventListener('load', () => {
+    const legendItems = document.getElementsByClassName('item');
+    for (let i = 0; i < legendItems.length; i++) {
+        const item = legendItems[i];
+        item.addEventListener('click', (e) => {
+            console.log('buceta');
+            console.log(e.children[1].innerHTML.replace(' ', '-').toLowerCase());
+            // console.log(`Clicked ${e.target.children[1].innerHTML.replace(' ', '-').toLowerCase()} layer`);
+        })
+    }
 });
 
 map.on('load', () => {
@@ -166,5 +232,7 @@ map.on('load', () => {
     // btns on click {
     //     map.on(bloco do radius)
     // }
+
+    // togglePOIsLayer();
 
 })

@@ -39,6 +39,11 @@ body {
     align-items: center;
 }
 
+.item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .circle {
     height: 10px;
     width: 10px;
