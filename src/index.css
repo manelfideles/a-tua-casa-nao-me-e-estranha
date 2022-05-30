@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 html {
     font-family: 'Inter', sans-serif;
@@ -91,11 +91,37 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-.marker {
-    font-family: 'Inter', sans-serif;
-    color: white;
-    padding: 2em;
-    border: 2px solid black;
-    border-radius: 10px;
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Inter', monospace;
+}
+
+.left {
+    padding-right: 1em;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.right {
+    padding-left: 0.5em;
+}
+
+.left>p {
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+}
+
+.keys {
+    padding-right: 0.5em;
+    font-weight: bold;
 }
